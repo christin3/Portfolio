@@ -1,0 +1,23 @@
+@media screen and (max-width: 768px) {
+
+	body {
+		background-color: lightblue;
+
+}
+/*	
+	#main-content,
+	#sidebar
+	{
+		
+		float: left;
+		background-color: pink;
+	}
+
+	#sidebar{
+		margin-top: 20px;	
+	}
+
+	.wrapper {
+		width: 600px;
+	}*/
+}
