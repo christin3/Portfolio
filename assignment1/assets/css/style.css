@@ -6,7 +6,7 @@
 
 
 body {
-
+    background-image: none;
     background-image: url("../images/cork-wallet.png")
 
 }
@@ -64,6 +64,7 @@ h3{
     font-family: Times;
     font-size: 16px;
     font-weight: normal;
+    align-items: left;
 
 }
 
@@ -95,11 +96,10 @@ hr{
     width: 270px;
     height: 190px;
     border: 2px solid #ddd;
-    float: right;
-
     background-color: white;
     margin-top: 50px;
     font-family: Georgia;
+    float: right;
 }
 .name {
     color: white;

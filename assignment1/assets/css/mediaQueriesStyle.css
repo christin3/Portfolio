@@ -1,9 +1,58 @@
 @media screen and (max-width: 768px) {
 
 	body {
-		background-color: lightblue;
+		background-image: none;
+		background-color: white;
+
 
 }
+.nav{
+	border: none;
+	float: left;
+	margin: 0px;
+	padding-left: 0px;
+}
+.links{
+	float: left;
+}
+
+
+.container{
+   width:100%;
+}
+
+.div1 {
+
+  	width:650px;
+  	height: 100%;
+    float:left;
+    border: 2px solid #ddd;
+    background-color: white;
+    margin-top: 50px;
+    position: relative;
+    font-family: Georgia;
+
+}
+
+.div2 {
+    width: 270px;
+    height: 190px;
+    border: 2px solid #ddd;
+
+    background-color: white;
+    margin-top: 50px;
+    font-family: Georgia;
+    float: left;
+}
+.footer {
+   
+   bottom:0;
+   width: auto; ;
+   height:60px;   
+   background:gray;
+   text-align: center;
+   border-top: solid 5px #4aaaa5;
+
 /*	
 	#main-content,
 	#sidebar
