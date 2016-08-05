@@ -1,13 +1,10 @@
-
-/* * selects everything to be applied*/
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
-
-
 body {
-    background-image: none;
-    background-image: url("../images/cork-wallet.png")
+background-image: url("../images/cork-wallet.png");
+max-width:960px;
+
 
 }
 
@@ -15,56 +12,64 @@ body {
     background-color: white;
     height: 5px;
     border-bottom: solid gray 3px;
-    height: 51px;
+    height: 44px;
 
 }
-
-
-a{
+.links{
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 15px;
     padding-bottom: 18px;
     color:grey;
-    float:right;
+    float: right;
 
 }
+a{
+    padding-left: 20px;
+}
+
+
 
 
 /* visited link */
-a:visited {
+.links:visited {
     color: teal;
 }
 
-a:hover {
+.links:hover {
     background-color: lightgray;
 }
 
 
 
 h1 {
-    margin-left: 45px;
+    margin-left: 22px;
     font-size: 2em;
     color: #4aaaa5;
 
 }
 
 h2{
-    margin-left: 30px;
-    padding-bottom: 10px;
+    
+    margin-left: 18px;
     color: #4aaaa5;
+    font-size: 2em;
+
 
 
 }
-
 h3{
+    text-align: center;
+    margin-top: 20px;
+}
+
+p{
     margin-left:20px;
     text-align: justify;
     margin-right: 20px;
     font-family: Times;
     font-size: 16px;
     font-weight: normal;
-    align-items: left;
 
 }
 
@@ -81,7 +86,7 @@ hr{
 
 
 
-.div1 {
+#main-content {
     width: 650px;
     height: auto;
     float: left;
@@ -92,22 +97,24 @@ hr{
 
 }
 
-.div2 {
+#sidebar {
     width: 270px;
-    height: 190px;
     border: 2px solid #ddd;
+    float: right;
     background-color: white;
     margin-top: 50px;
     font-family: Georgia;
-    float: right;
+
 }
+
+
 .name {
     color: white;
-    font-size: 45px;
+    font-size: 41px;
     background-color: #4aaaa5;
     font-family: Georgia;
-    margin-right: 300px;
     float: left;
+    max-width: 340px;
 }
 .paragraph {
     font-family: Times;
@@ -138,24 +145,19 @@ hr{
 
 }
 
-#wrapper {
-    margin-left:auto;
-    margin-right:auto;
-    width:960px;
+.wrapper {
+    width: 1024px;
+    margin: 40px auto;
 }
 
 .imgs {
-    margin: 16px;
-    border: 1px dash #4aaaa5;;
+    margin-right: 40px;
+
     float: right;
-    width: 180px;
+
+    width: 175px;
 }
 
-.imgs:hover {
-    border: 1px solid #4aaaa5;;
-
- 
-}
 
 .imgs img {
     width: 100%;

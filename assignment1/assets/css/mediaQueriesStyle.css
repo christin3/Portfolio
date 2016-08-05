@@ -1,72 +1,91 @@
+@media screen and (max-width: 980px) {
+
+    body {
+        
+    }
+    .wrapper {
+        width: 100%;
+        padding: 20px;
+    }
+   
+   #main-content {
+        width: 100%;
+    }
+    #sidebar {
+        margin-top: 40px;
+        float: left;
+    }
+    #footer {
+        width: 100%;
+    }
+}
+
 @media screen and (max-width: 768px) {
 
-	body {
-		background-image: none;
-		background-color: white;
+    body {
+       
+    }
+    .wrapper {
+        width: 100%;
+        padding: 20px;
+    }
+    #main-content {
+        width: 100%;
 
+    }
 
-}
-.nav{
-	border: none;
-	float: left;
-	margin: 0px;
-	padding-left: 0px;
-}
-.links{
-	float: left;
-}
+    
+    #sidebar {
+        margin-top: 40px;
+        float: left;
+        width: 100%;
 
+    }
 
-.container{
-   width:100%;
-}
+    #footer {
+        width: 100%;
+    }
+    .links {
+        float:right;
 
-.div1 {
-
-  	width:650px;
-  	height: 100%;
-    float:left;
-    border: 2px solid #ddd;
-    background-color: white;
-    margin-top: 50px;
-    position: relative;
-    font-family: Georgia;
-
+    }
+        a{
+        padding-right: 15px;
+    }
 }
 
-.div2 {
-    width: 270px;
-    height: 190px;
-    border: 2px solid #ddd;
+@media screen and (max-width: 640px) {
 
-    background-color: white;
-    margin-top: 50px;
-    font-family: Georgia;
-    float: left;
-}
-.footer {
-   
-   bottom:0;
-   width: auto; ;
-   height:60px;   
-   background:gray;
-   text-align: center;
-   border-top: solid 5px #4aaaa5;
+    body {
+        
+    }
+    .wrapper {
+        width: 100%;
+        padding: 20px;
+    }
 
-/*	
-	#main-content,
-	#sidebar
-	{
-		
-		float: left;
-		background-color: pink;
-	}
+     #main-content {
+        width: 100%;
+    }
 
-	#sidebar{
-		margin-top: 20px;	
-	}
+    #sidebar {
+        margin-top: 40px;
+    }
+    #footer {
+        width: 100%;
 
-	.wrapper {
-		width: 600px;
-	}*/
+    }
+    .links{
+        float:left;
+        background-color: white;
+        width: 100%;
+        text-align: center;
+    }
+    a{
+        padding-right: 50px;
+    }
+
+    #imgs{
+        float: left;
+    }
 }
