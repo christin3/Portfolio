@@ -116,16 +116,6 @@ hr {
     background-color: #4aaaa5;
 }
 
-#footer {
-    position: fixed;
-    bottom: 0;
-    width: 1000px;
-    height: 60px;
-    background: gray;
-    text-align: center;
-    border-top: solid 5px #4aaaa5;
-}
-
 .wrapper {
     width: 1024px;
     margin: 40px auto;
@@ -144,4 +134,19 @@ hr {
 
 .desc {
     text-align: center;
+}
+
+footer {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    height: 50px;
+    width: 100%;
+    max-width: 960px;
+    background-color: grey;
+}
+
+h5 {
+    text-align: center;
+    padding-top: 18px;
 }
