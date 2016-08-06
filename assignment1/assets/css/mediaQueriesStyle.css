@@ -1,14 +1,10 @@
 @media screen and (max-width: 980px) {
-
-    body {
-        
-    }
+    body {}
     .wrapper {
         width: 100%;
         padding: 20px;
     }
-   
-   #main-content {
+    #main-content {
         width: 100%;
     }
     #sidebar {
@@ -21,71 +17,55 @@
 }
 
 @media screen and (max-width: 768px) {
-
-    body {
-       
-    }
+    body {}
     .wrapper {
         width: 100%;
         padding: 20px;
     }
     #main-content {
         width: 100%;
-
     }
-
-    
     #sidebar {
         margin-top: 40px;
         float: left;
         width: 100%;
-
     }
-
     #footer {
         width: 100%;
     }
     .links {
-        float:right;
-
+        float: right;
     }
-        a{
+    a {
         padding-right: 15px;
     }
 }
 
 @media screen and (max-width: 640px) {
-
-    body {
-        
-    }
+    body {}
     .wrapper {
         width: 100%;
         padding: 20px;
     }
-
-     #main-content {
+    #main-content {
         width: 100%;
     }
-
     #sidebar {
         margin-top: 40px;
     }
     #footer {
         width: 100%;
-
     }
-    .links{
-        float:left;
+    .links {
+        float: left;
         background-color: white;
         width: 100%;
         text-align: center;
     }
-    a{
+    a {
         padding-right: 50px;
     }
-
-    #imgs{
+    #imgs {
         float: left;
     }
 }

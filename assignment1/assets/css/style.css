@@ -1,37 +1,35 @@
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
+
 body {
-background-image: url("../images/cork-wallet.png");
-max-width:960px;
-
-
+    background-image: url("../images/cork-wallet.png");
+    max-width: 960px;
 }
 
-.nav{
+.nav {
     background-color: white;
     height: 5px;
     border-bottom: solid gray 3px;
     height: 44px;
-
 }
-.links{
+
+.links {
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 15px;
     padding-bottom: 18px;
-    color:grey;
+    color: grey;
     float: right;
-
 }
-a{
+
+a {
     padding-left: 20px;
 }
 
 
-
-
 /* visited link */
+
 .links:visited {
     color: teal;
 }
@@ -40,51 +38,40 @@ a{
     background-color: lightgray;
 }
 
-
-
 h1 {
     margin-left: 22px;
     font-size: 2em;
     color: #4aaaa5;
-
 }
 
-h2{
-    
+h2 {
     margin-left: 18px;
     color: #4aaaa5;
     font-size: 2em;
-
-
-
 }
-h3{
+
+h3 {
     text-align: center;
     margin-top: 20px;
 }
 
-p{
-    margin-left:20px;
+p {
+    margin-left: 20px;
     text-align: justify;
     margin-right: 20px;
     font-family: Times;
     font-size: 16px;
     font-weight: normal;
-
 }
 
-img{
+img {
     margin-right: 10px;
-
-
 }
 
-hr{
+hr {
     margin-left: 20px;
     margin-right: 20px;
 }
-
-
 
 #main-content {
     width: 650px;
@@ -94,19 +81,18 @@ hr{
     background-color: white;
     margin-top: 50px;
     font-family: Georgia;
-
 }
 
 #sidebar {
     width: 270px;
+    height: auto;
     border: 2px solid #ddd;
     float: right;
     background-color: white;
     margin-top: 50px;
     font-family: Georgia;
-
+    margin-bottom: 100px;
 }
-
 
 .name {
     color: white;
@@ -116,33 +102,28 @@ hr{
     float: left;
     max-width: 340px;
 }
+
 .paragraph {
     font-family: Times;
-
-
 }
 
-.im{
-    margin-left:20px;
+.im {
+    margin-left: 20px;
     margin-right: 0px;
 }
 
-.im:hover{
-	background-color: #4aaaa5;
-
+.im:hover {
+    background-color: #4aaaa5;
 }
 
-
 #footer {
-   position:absolute;
-   bottom:0;
-   width: 1000px ;
-   height:60px;   
-   background:gray;
-   text-align: center;
-   border-top: solid 5px #4aaaa5;
-
-
+    position: fixed;
+    bottom: 0;
+    width: 1000px;
+    height: 60px;
+    background: gray;
+    text-align: center;
+    border-top: solid 5px #4aaaa5;
 }
 
 .wrapper {
@@ -152,12 +133,9 @@ hr{
 
 .imgs {
     margin-right: 40px;
-
-    float: right;
-
+    float: left;
     width: 175px;
 }
-
 
 .imgs img {
     width: 100%;
@@ -167,5 +145,3 @@ hr{
 .desc {
     text-align: center;
 }
-
-
