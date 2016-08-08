@@ -25,17 +25,8 @@
 /////    /////    /////    /////
 /////    /////    /////    /////
 
-/**
- * ScrollReveal
- * ------------
- * Version : 3.1.4
- * Website : scrollrevealjs.org
- * Repo    : github.com/jlmakes/scrollreveal.js
- * Author  : Julian Lloyd (@jlmakes)
- */
-
-;(function() {
-    'use strict';
+(function () {
+        'use strict';
 
     var
         sr,
@@ -311,7 +302,7 @@
                 for (var i = 0; i < sr.history.length; i++) {
                     var record = sr.history[i];
                     sr.reveal(record.selector, record.config, record.interval, true);
-                };
+                }
                 _init();
             } else {
                 console.log('ScrollReveal: sync failed, no reveals found.');
@@ -502,10 +493,7 @@
 
             // Update the element stored with our new element.
             sr.store.elements[elem.id] = elem;
-        };
-
-
-
+        }
         function _record(selector, config, interval) {
 
             // Save the `reveal()` arguments that triggered this `_record()` call, so we
@@ -568,7 +556,7 @@
                 // For each sequenced elemenet, let’s check visibility and if
                 // any are visible, set it’s sequence to active.
                 for (var i = 0; i < sequence.elemIds.length; i++) {
-                    elemId = sequence.elemIds[i]
+                    elemId = sequence.elemIds[i];
                     elem   = sr.store.elements[elemId];
                     if (_isElemVisible(elem) && !active) {
                         active = true;
@@ -691,7 +679,7 @@
                         duration += elem.config.delay;
                     }
                     callback += 'Reveal';
-                    break
+                    break;
 
                 case 'reset':
                     duration = elem.config.duration;
@@ -837,7 +825,7 @@
                 elemBottom = elemTop  + elemHeight,
                 elemRight  = elemLeft + elemWidth;
 
-            return confirmBounds() || isPositionFixed()
+            return confirmBounds() || isPositionFixed();
 
             function confirmBounds() {
 
@@ -927,7 +915,8 @@
             return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)
         };
 
-        function Tools() {};
+        function Tools() {
+        }
         return Tools
 
     })();
